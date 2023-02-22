@@ -4,7 +4,7 @@
 
 @section('content')
     @include('partials.header')
-    <div class="w-100 my-8 h-36 bg-[#d97706]-900">
+    <div class="w-100 my-8 h-36 bg-metallic-gold">
         <h3 class="p-4 inline-block text-1xl sm:text-3xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200">MedWarden — вебдодаток для визначення проблем зі здоров’ям</h1>
         <img class="w-60 inline-block" src="{{ asset('storage/image/doctors.png') }}" alt="">   
     </div>

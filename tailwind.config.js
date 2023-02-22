@@ -1,12 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue",
+  
+  purge: [
+
+    './resources/**/*.blade.php',
+
+    './resources/**/*.js',
+
+    './resources/**/*.vue',
+
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'metallic-gold': '#AA6C39',
+        'custom-green': '#4CAF50',
+      },
+    },
   },
+  variants: {},
   plugins: [],
-}
+};
